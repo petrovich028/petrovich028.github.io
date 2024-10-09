@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: Arial;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.move-icon {
+    height: 50px;
+}
+
+.move-button {
+    background-color: transparent;
+    border: 3px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.icon-rez {
+    background-color: transparent;
+    border: 3px solid white;
+    width: 60px;          
+    border-radius: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.vibor {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.js-score {
+    font-size: 25px;
+    font-weight: bold;
+}
+.reset-score-bottom {
+    font-size: 15px;
+    background-color: aquamarine;
+    border: 3px solid rgb(169, 12, 77);
+    border-width: 5px;
+    border-radius: 60px;
+    margin-left: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+.reset-score-bottom:hover {background-color: rgb(6, 12, 125); color:antiquewhite;}
