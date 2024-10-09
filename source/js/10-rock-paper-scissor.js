@@ -7,13 +7,13 @@ const score = {
 
 //------------------------------------------------------------------------------------------------
 function vibor() {
-    if (resultman==='Камень') {resm='<img src="images/rock-emoji.png" class="icon-rez">';}
+    if (resultman==='Камень') {resm='<img src="source/images/rock-emoji.png" class="icon-rez">';}
    
-    if (resultman==='Бумага') {resm='<img src="images/paper-emoji.png" class="icon-rez">';}
-    if (resultman==='Ножницы') {resm='<img src="images/scissors-emoji.png" class="icon-rez">';}
-    if (resultcomp==='Камень') {resc='<img src="images/rock-emoji.png" class="icon-rez">';}
-    if (resultcomp==='Бумага') {resc='<img src="images/paper-emoji.png" class="icon-rez">';}
-    if (resultcomp==='Ножницы') {resc='<img src="images/scissors-emoji.png" class="icon-rez">';}
+    if (resultman==='Бумага') {resm='<img src="source/images/paper-emoji.png" class="icon-rez">';}
+    if (resultman==='Ножницы') {resm='<img src="source/images/scissors-emoji.png" class="icon-rez">';}
+    if (resultcomp==='Камень') {resc='<img src="source/images/rock-emoji.png" class="icon-rez">';}
+    if (resultcomp==='Бумага') {resc='<img src="source/images/paper-emoji.png" class="icon-rez">';}
+    if (resultcomp==='Ножницы') {resc='<img src="source/images/scissors-emoji.png" class="icon-rez">';}
     document.querySelector('.vibor').innerHTML = `Вы выбрали ${resm}. Компьютер выбрал ${resc}. Результат:  ${result}`;
 }
 
