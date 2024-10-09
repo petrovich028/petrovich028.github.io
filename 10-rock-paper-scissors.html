@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Камень-ножницы-бумага</title>
+    <link rel="stylesheet" type="text/css" href="source/css/10-rock-paper-scissors.css" />
+
+        
+</head>
+
+<body>
+
+    <p class="title">Камень Ножницы Бумага</p>
+    <button onclick="
+    resultman='Камень';
+    pickComputerMove(resultman);
+    " class="move-button"><img src="source/img/rock-emoji.png" class="move-icon"></button>
+    <button onclick="
+    resultman='Бумага';
+    pickComputerMove(resultman);
+    " class="move-button"><img src="source/img/paper-emoji.png" class="move-icon"></button>
+    <button onclick="
+    resultman='Ножницы';
+    pickComputerMove(resultman);
+    " class="move-button"><img src="source/img/scissors-emoji.png" class="move-icon"></button>
+    <br>
+    <p class="vibor"></p>
+    <p class="js-score"></p>
+    <br>
+    <button
+        onclick="score.wins=0; score.losses=0; score.ties=0; localStorage.removeItem(score); funscore(); document.querySelector('.vibor').innerHTML=``;" class="reset-score-bottom">Сбросить
+        результаты игры</button>
+
+    <script src="source/js/10-rock-paper-scissor.js"></script>
+</body>
+
+</html>
